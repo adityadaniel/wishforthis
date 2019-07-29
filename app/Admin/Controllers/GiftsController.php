@@ -71,6 +71,8 @@ class GiftsController extends AdminController
      */
     protected function form()
     {
+
+        
         $form = new Form(new Gift);
 
         $form->text('name', __('Name'));

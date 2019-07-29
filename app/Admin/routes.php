@@ -12,5 +12,6 @@ Route::group([
 
     $router->get('/', 'HomeController@index')->name('admin.home');
     $router->resource('gifts', GiftsController::class);
+    $router->resource('givers', GiversController::class);
 
 });

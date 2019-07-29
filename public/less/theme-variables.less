@@ -4,17 +4,16 @@
 
 //////// Colours
 
-@color-bg-site: #000000;
+@color-bg-site: #000;
+@color-rose-gold: #efc1ac;
 @color-primary: #4A90E2;
 @color-primary-1: #31639C;
 @color-primary-2: #465773;
 @color-primary-3: #4A90E2;
-@color-rose-gold: #efc1ac;
 @color-dark: #252525;
-@color-black: #000000;
 @color-bg-secondary: #FAFAFA;
 @color-on-dark: #FFFFFF;
-@color-gray: #D3D3D3;
+@color-rose-gold: #efc1ac;
 
 @has-primary-1: true;
 @has-primary-2: true;
@@ -24,14 +23,14 @@
 
 //////// Typography
 
-@base-font-size: percentage(14/16); // change first value to pixel font size
-@base-font-size-px: 14px; // the first value from above;
+@base-font-size: percentage(16/18); // change first value to pixel font size
+@base-font-size-px: 16px; // the first value from above;
 @base-font-size-mobile: percentage(14/16); // change first value to pixel font size
 @base-font-size-mobile-px: 14px; // the first value from above;
 
 @base-line-height: 1.85714285714286em;
 
-@body-font: 'Gotham';
+@body-font: 'Open Sans';
 @heading-font: 'Bebas Neue';
 @button-font: 'Open Sans';
 @nav-item-font: 'Open Sans';
@@ -62,8 +61,8 @@
 
 @ul-line-height: @base-line-height;
 
-@color-body: #ffffff;
-@color-heading: @color-rose-gold;
+@color-body: #666666;
+@color-heading: @color-dark;
 
 @heading-uppercase: false;
 @heading-weight: 300;
@@ -90,8 +89,8 @@
 @button-padding-s: @base-line-height / 4;
 @button-padding-e: @base-line-height *1.5;
 @button-padding-w: @base-line-height *1.5;
-@border-width: 2px;
-@button-text-size: @h5-size;
+@border-width: 1px;
+@button-text-size: @h6-size;
 @button-font-weight: 700;
 @button-spacing: @base-line-height;
 
@@ -104,16 +103,15 @@
 //////// Forms
 
 @input-label-font-size: 1.14285714285714em;
-@input-label-font-weight: 400;
+@input-label-font-weight: 600;
 
-@inputs-have-border: false;
+@inputs-have-border: true;
 
-@input-padding: @base-line-height;
+@input-padding: @base-line-height/4;
 @input-border-radius: 6px;
 @input-border: 1px solid #ECECEC;
-@input-background-color: #fcfcfc;
-@input-color: @color-dark;
-@input-placeholder-color: @color-dark;
+@input-background-color: #FCFCFC;
+@input-placeholder-color: lighten(@color-body, 30%);
 @input-placeholder-size: 1.14285714285714em;
 
 @checkbox-height: @base-line-height;
@@ -148,7 +146,7 @@
 //////// Boxes
 
 @box-padding: @base-line-height;
-@box-border: 2px solid @color-rose-gold;
+@box-border: 2px solid #efc1ac;
 @box-shadow-level: 1; // value from 1 - 5, shallow - deep
 
 //////// Image Grid Settings

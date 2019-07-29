@@ -6,15 +6,18 @@
           <img src="{{ asset('images/logo.png') }}" alt="Sally Stefanus">
         </a>
         <hr style="border-bottom: #efc1ac 1px solid">
+          <div class="row justify-content-center mx--3 space--xs" style="padding-bottom: 25px;">
+            <h3 class="text-center bebas-neue">Blackbird Hotel</h3>
+          </div>
         <div class="row">
           <div class="col-4" style="border-right: 2px solid #efc1ac">
-            <h3 class="text-center bebas-neue"> Saturday</h3>
+            <h3 class="text-center bebas-neue">Saturday</h3>
           </div>
           <div class="col-4">
             <h3 class="text-center bebas-neue">August 17th, 2019</h3>
           </div>
           <div class="col-4" style="border-left: 2px solid #efc1ac">
-            <h3 class="text-center bebas-neue">17:00</h3>
+            <h3 class="text-center bebas-neue">15:30</h3>
           </div>
         </div>
       </div>     

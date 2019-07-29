@@ -4,10 +4,10 @@
   position: relative;
 
   &:not([class*='primary']) {
-    border-color: @color-rose-gold;
+    border-color: #efc1ac;
 
     &:hover {
-      border-color: darken(@color-rose-gold, 15%);
+      border-color: darken(@color-rose-gold, 10%);
     }
   }
 
@@ -17,6 +17,7 @@
     .btn__text {
       letter-spacing: .5px;
       margin-right: -.5px;
+      font-family: 'Gotham';
     }
   }
 
@@ -92,6 +93,16 @@ p {
     &.socicon {
       line-height: 42px;
     }
+  }
+}
+
+.btn--rose-gold {
+  position: relative;
+  border: 2px solid @color-rose-gold;
+  color: #d3d3d3;
+
+  &:hover {
+    border-color: darken(@color-rose-gold, 20%);
   }
 }
 

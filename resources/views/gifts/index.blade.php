@@ -22,18 +22,18 @@
                       <li>-</li>
                     @endif
                   </ul>
-                  <a href="{{$gift->store_url}}">
+                  <a href="{{$gift->store_url}}" target="_blank">
                     <p class="text-uppercase">Buy on {{ $gift->store_name}}</p>
                   </a>
                   <br>
                   @if ($gift->is_available == 0)
-                    <a class="btn btn--lg inline-block disabled">
+                    <a class="btn btn--lg inline-block disabled btn--rose-gold">
                       <span class="btn__text">
                         UNAVAILABLE
                       </span>
                     </a>
                   @else
-                    <a href="gifts/{{ $gift->id }}" class="btn btn--lg inline-block">
+                    <a href="gifts/{{ $gift->id }}" class="btn btn--lg inline-block btn--rose-gold">
                       <span class="btn__text">
                         AVAILABLE
                       </span>

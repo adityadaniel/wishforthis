@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\Giver;
 use Illuminate\Http\Request;
 
-class GiverController extends Controller
+class GiversController extends Controller
 {
     /**
      * Display a listing of the resource.

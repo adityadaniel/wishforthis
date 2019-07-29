@@ -13,5 +13,5 @@
 
 Route::get('/', 'GiftsController@index');
 Route::get('/gifts/{id}', 'GiftsController@show');
-Route::post('/gifts/{id}', 'GiftsController@store');
+Route::post('/gifts/', 'GiftsController@store');
 Route::get('/thank-you', 'GiftsController@thanks');
