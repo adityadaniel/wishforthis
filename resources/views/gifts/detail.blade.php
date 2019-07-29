@@ -35,11 +35,11 @@
               <input type="email" placeholder="Your email" name="email">
             </div>
             <div class="col-12">
-                <button type="submit" class="btn btn--lg">
+                <button type="submit" class="btn btn--lg inline-block btn--rose-gold">
                   <span class="btn__text text-uppercase">Submit</span>
                 </button>
             </div>
-          </div>
+          </div>  
         </form>
       </div>
     </div>

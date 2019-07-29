@@ -833,7 +833,7 @@ div[data-overlay] ul {
 }
 /**! 06. Buttons **/
 .btn {
-  font-family: 'Gotham', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Bebas Neue', 'Helvetica', 'Arial', sans-serif;
   transition: 0.1s linear;
   -webkit-transition: 0.1s linear;
   -moz-transition: 0.1s linear;
@@ -844,6 +844,7 @@ div[data-overlay] ul {
   padding-left: 2.78571429em;
   border: 2px solid #efc1ac;
   border-width: 1px;
+  letter-spacing: 0.15em;
   font-size: inherit;
   line-height: 1.85714286em;
   text-transform: uppercase;
@@ -942,7 +943,7 @@ div[data-overlay] ul {
   padding-left: 1.85714286em;
 }
 .btn--lg {
-  padding-top: 1.04464286em;
+  padding-top: 0.58035714em;
   padding-bottom: 0.58035714em;
   padding-right: 3.48214286em;
   padding-left: 3.48214286em;
